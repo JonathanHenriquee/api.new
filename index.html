@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Coloque seu CEP</h1>
+
+        <form id="form-cep">
+            <input type="text" id="input-cep" placeholder="Digite seu CEP(Somente números)" maxlength="8" pattern="\d{8}" required>
+<!--Maxlang coloca o número máximo de caracteres. Pattern="/{} difine que o campo deve possuir exatamente o número que for colocado entre chaves"-->
+
+
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="resultado" class="resultado"></div>
+
+
+
+    </div>
+
+
+
+
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>
